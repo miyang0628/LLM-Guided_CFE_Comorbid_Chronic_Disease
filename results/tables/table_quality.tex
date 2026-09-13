@@ -1,0 +1,20 @@
+\begin{table}[ht]
+\centering
+\caption{Recourse quality on model-confirmed Class~3 patients, unconstrained
+(C0) vs.\ pre-injection with fallback (C2). ``Any admissibility violation'' is
+the fraction of patients with at least one candidate breaching the admissible
+band (patient-level denominator); contrast with the candidate-level breakdown
+in Table~\ref{tab:violation_taxonomy}. Pre-injection removes admissibility
+violations entirely while retaining multiple valid, diverse candidates.}
+\label{tab:quality_revised}
+\begin{tabular}{llcccc}
+\toprule
+Sex & Condition & Valid cands & Diversity & Vars changed & Any admiss.\ viol. \\
+\midrule
+  Female & C0 unconstrained & 3.97 & 14.26 & 14.83 & 100.0\% \\
+  Female & C2 pre-inject+fb & 3.50 & 6.02 & 10.99 & 13.6\% \\
+  Male & C0 unconstrained & 3.91 & 15.69 & 15.57 & 100.0\% \\
+  Male & C2 pre-inject+fb & 3.40 & 4.35 & 9.51 & 1.1\% \\
+\bottomrule
+\end{tabular}
+\end{table}

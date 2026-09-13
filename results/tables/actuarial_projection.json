@@ -1,0 +1,88 @@
+{
+  "caveat": "Cross-sectional KNHANES; no claims linkage; illustrative order-of-magnitude sizing only.",
+  "cost_index": {
+    "0": 1.0,
+    "1": 1.35,
+    "2": 1.59,
+    "3": 2.56
+  },
+  "class0_anchor_usd": 2572,
+  "excess_by_tier_usd": {
+    "0": 0,
+    "1": 900,
+    "2": 1518,
+    "3": 4013
+  },
+  "transition_probs": {
+    "Male": {
+      "pC0": 0.9213483146067416,
+      "pC1": 0.0449438202247191,
+      "pC2": 0.011235955056179775,
+      "pinf": 0.02247191011235955
+    },
+    "Female": {
+      "pC0": 0.9393939393939394,
+      "pC1": 0.06060606060606061,
+      "pC2": 0.0,
+      "pinf": 0.0
+    }
+  },
+  "cost_gradient": [
+    {
+      "tier": "Class 0 (Normal)",
+      "cost_index": 1.0,
+      "annual_usd": 2572,
+      "excess_usd": 0
+    },
+    {
+      "tier": "Class 1 (HTN-only)",
+      "cost_index": 1.35,
+      "annual_usd": 3473,
+      "excess_usd": 900
+    },
+    {
+      "tier": "Class 2 (DM-only)",
+      "cost_index": 1.59,
+      "annual_usd": 4090,
+      "excess_usd": 1518
+    },
+    {
+      "tier": "Class 3 (Comorbid)",
+      "cost_index": 2.56,
+      "annual_usd": 6585,
+      "excess_usd": 4013
+    }
+  ],
+  "cost_offset": [
+    {
+      "gender": "Male",
+      "adherence": "Full (100%)",
+      "offset_usd": 3865
+    },
+    {
+      "gender": "Male",
+      "adherence": "Moderate (50%)",
+      "offset_usd": 1933
+    },
+    {
+      "gender": "Male",
+      "adherence": "Low (30%)",
+      "offset_usd": 1160
+    },
+    {
+      "gender": "Female",
+      "adherence": "Full (100%)",
+      "offset_usd": 3958
+    },
+    {
+      "gender": "Female",
+      "adherence": "Moderate (50%)",
+      "offset_usd": 1979
+    },
+    {
+      "gender": "Female",
+      "adherence": "Low (30%)",
+      "offset_usd": 1187
+    }
+  ]
+}
